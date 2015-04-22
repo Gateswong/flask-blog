@@ -13,6 +13,9 @@
 	<script src="{{ url_for('static', filename='bower_components/platform/platform.js') }}"></script>
 	<script src="{{ url_for('static', filename='bower_components/polymer/polymer.js') }}"></script>
 	<link rel="import" href="{{ url_for('static', filename='bower_components/github-gist/github-gist.html') }}">
+	<script type="text/x-mathjax-config">
+		MathJax.Hub.Config({tex2jax: {inlineMath: [['$', '$'], ['\\(', '\\)']]}});
+	</script>
 	<script type="text/javascript"
 		  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 	</script>
